@@ -1,0 +1,147 @@
+
+[
+{
+    "image": "https://i.ibb.co.com/PsBpMFqL/unnamed.png",
+    "title": "TaskMaster Pro",
+    "companyName": "NovaSoft",
+    "id": 1,
+    "description": "A smart task management app with reminders and analytics.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0gJQsNv/filtrac.png",
+    "title": "FitTrack",
+    "companyName": "Healthify Labs",
+    "id": 2,
+    "description": "Track workouts, calories, and health progress seamlessly.",
+    "size": 62,
+    "reviews": 850,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/99kBR2Rw/photocraft.jpg",
+    "title": "PhotoCraft Studio",
+    "companyName": "PixelWorks",
+    "id": 3,
+    "description": "Advance photo editing tools with AI enhancements.",
+    "size": 110,
+    "reviews": 2400,
+    "ratingAvg": 4.8,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1705 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SXLr88N4/learnx.png",
+    "title": "LearnX",
+    "companyName": "EduHive",
+    "id": 4,
+    "description": "Learn coding, design, and business skills with structured courses.",
+    "size": 88,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qLGR3bb6/travelgo.png",
+    "title": "TravelGo",
+    "companyName": "WayFly",
+    "id": 5,
+    "description": "Book flights, hotels, and tours with exclusive discounts.",
+    "size": 72,
+    "reviews": 1900,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DH1CknR3/musicflow.png",
+    "title": "MusicFlow",
+    "companyName": "BeatSync",
+    "id": 6,
+    "description": "Stream and download high-quality music with smart playlists.",
+    "size": 95,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3590 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gvn4yHMN/shopMart.png",
+    "title": "ShopSmart",
+    "companyName": "DealMart",
+    "id": 7,
+    "description": "Online shopping with exclusive deals and fast delivery.",
+    "size": 55,
+    "reviews": 4200,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbdLd9fB/secure-Value.jpg",
+    "title": "SecureVault",
+    "companyName": "CyberGuard Ltd",
+    "id": 8,
+    "description": "Password manager and secure cloud vault.",
+    "size": 40,
+    "reviews": 900,
+    "ratingAvg": 4.9,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 620 }
+    ]
+  }
+]

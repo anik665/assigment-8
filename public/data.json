@@ -1,0 +1,434 @@
+[
+  {
+    "image": "https://i.ibb.co.com/PsBpMFqL/unnamed.png",
+    "title": "TaskMaster Pro",
+    "companyName": "NovaSoft",
+    "id": 1,
+    "description": "A smart task management app with reminders and analytics.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0gJQsNv/filtrac.png",
+    "title": "FitTrack",
+    "companyName": "Healthify Labs",
+    "id": 2,
+    "description": "Track workouts, calories, and health progress seamlessly.",
+    "size": 62,
+    "reviews": 850,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/99kBR2Rw/photocraft.jpg",
+    "title": "PhotoCraft Studio",
+    "companyName": "PixelWorks",
+    "id": 3,
+    "description": "Advance photo editing tools with AI enhancements.",
+    "size": 110,
+    "reviews": 2400,
+    "ratingAvg": 4.8,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1705 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SXLr88N4/learnx.png",
+    "title": "LearnX",
+    "companyName": "EduHive",
+    "id": 4,
+    "description": "Learn coding, design, and business skills with structured courses.",
+    "size": 88,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qLGR3bb6/travelgo.png",
+    "title": "TravelGo",
+    "companyName": "WayFly",
+    "id": 5,
+    "description": "Book flights, hotels, and tours with exclusive discounts.",
+    "size": 72,
+    "reviews": 1900,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DH1CknR3/musicflow.png",
+    "title": "MusicFlow",
+    "companyName": "BeatSync",
+    "id": 6,
+    "description": "Stream and download high-quality music with smart playlists.",
+    "size": 95,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3590 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gvn4yHMN/shopMart.png",
+    "title": "ShopSmart",
+    "companyName": "DealMart",
+    "id": 7,
+    "description": "Online shopping with exclusive deals and fast delivery.",
+    "size": 55,
+    "reviews": 4200,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbdLd9fB/secure-Value.jpg",
+    "title": "SecureVault",
+    "companyName": "CyberGuard Ltd",
+    "id": 8,
+    "description": "Password manager and secure cloud vault.",
+    "size": 40,
+    "reviews": 900,
+    "ratingAvg": 4.9,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HT2RffYG/notewaer.png",
+    "title": "NoteWave",
+    "companyName": "SoftSpark",
+    "id": 9,
+    "description": "Quick notes, task lists, and cloud sync for productivity.",
+    "size": 36,
+    "reviews": 560,
+    "ratingAvg": 4.1,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Cs9RCRPJ/weather.jpg",
+    "title": "WeatherCast",
+    "companyName": "SkyTech",
+    "id": 10,
+    "description": "Live weather, forecasts, and storm alerts.",
+    "size": 50,
+    "reviews": 2200,
+    "ratingAvg": 4.6,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 990 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/h1W6LDLF/bdgue.jpg",
+    "title": "BudgetBuddy",
+    "companyName": "MintSoft",
+    "id": 11,
+    "description": "Track expenses, savings goals, and monthly budgets.",
+    "size": 44,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 720 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gZCKvJcR/mindspace.jpg",
+    "title": "MindSpace",
+    "companyName": "CalmTech",
+    "id": 12,
+    "description": "Meditation, breathing exercises, and sleep sounds.",
+    "size": 53,
+    "reviews": 3050,
+    "ratingAvg": 4.7,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 2080 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TqM5HSRT/ridemate.jpg",
+    "title": "RideMate",
+    "companyName": "UrbanDrive",
+    "id": 13,
+    "description": "Bike, car, and CNG ride-sharing with smart pricing.",
+    "size": 68,
+    "reviews": 4100,
+    "ratingAvg": 4.3,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxGB95cB/eurro-pro.png",
+    "title": "EduPro Kids",
+    "companyName": "LearnSoft",
+    "id": 14,
+    "description": "Games, quizzes, and learning modules for kids.",
+    "size": 75,
+    "reviews": 3300,
+    "ratingAvg": 4.8,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 2510 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VpkxN9RP/quick-Payi.png",
+    "title": "QuickPay",
+    "companyName": "FinEdge",
+    "id": 15,
+    "description": "Fast mobile payments, bills, and QR transfers.",
+    "size": 48,
+    "reviews": 5200,
+    "ratingAvg": 4.2,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2650 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bjrpLg4Q/Focuse-Zen.jpg",
+    "title": "FocusZen",
+    "companyName": "MindGrow",
+    "id": 16,
+    "description": "Focus timer, study mode, and productivity lock features.",
+    "size": 38,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TNnt7BR/DockLink.png",
+    "title": "DocLink",
+    "companyName": "MediConnect",
+    "id": 17,
+    "description": "Doctor appointments, reports, and online consultations.",
+    "size": 66,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 960 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/n8MY30QY/Gamebox.jpg",
+    "title": "GameBox",
+    "companyName": "PlayNext",
+    "id": 18,
+    "description": "Thousands of mini-games in one place.",
+    "size": 120,
+    "reviews": 7000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4340 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PsDLrPqH/esfile.jpg",
+    "title": "FileXplorer",
+    "companyName": "TechEase",
+    "id": 19,
+    "description": "File manager with cloud sync and secure storage.",
+    "size": 41,
+    "reviews": 1000,
+    "ratingAvg": 4.3,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mrPNqkQy/cleacnboost.jpg",
+    "title": "CleanBoost",
+    "companyName": "SystemPro",
+    "id": 20,
+    "description": "Phone cleaner, RAM booster, and battery saver.",
+    "size": 30,
+    "reviews": 4500,
+    "ratingAvg": 4.1,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGCyMDXj/Daily-Reads.jpg",
+    "title": "DailyReads",
+    "companyName": "BookHive",
+    "id": 21,
+    "description": "Short articles, summaries, and trending stories.",
+    "size": 39,
+    "reviews": 2200,
+    "ratingAvg": 4.7,
+    "downloads": 760000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1320 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tTRhs4R0/chat-Sheper.png",
+    "title": "ChatSphere",
+    "companyName": "ConnectSoft",
+    "id": 22,
+    "description": "Fast messaging with encryption and cloud backup.",
+    "size": 59,
+    "reviews": 3900,
+    "ratingAvg": 4.4,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkVLMHvd/fitmal.png",
+    "title": "FitMeal",
+    "companyName": "NutriLife",
+    "id": 23,
+    "description": "Healthy meal plans, calorie tracking, and recipes.",
+    "size": 47,
+    "reviews": 1800,
+    "ratingAvg": 4.5,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 830 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kV8twjY8/scane-pro.png",
+    "title": "ScanPro",
+    "companyName": "DocVision",
+    "id": 24,
+    "description": "PDF scanner, document converter, and cloud sync.",
+    "size": 33,
+    "reviews": 1600,
+    "ratingAvg": 4.6,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  }
+]
