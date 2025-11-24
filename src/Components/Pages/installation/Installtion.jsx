@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import InstallCard from './installCard';
 import { getStoreApps, removestoreApp } from '../../../storeBookdb';
 import dropImg from '../../../../public/assets/dropdown.png'
+import { toast } from 'react-toastify';
 
 const Installtion = () => {
     const data = useLoaderData()
@@ -19,6 +20,7 @@ const Installtion = () => {
 
     const removedCard = (id) => {
         const filterCards = install.filter(card => card.id !== id)
+        toast('uninstall successfull')
         setInstall(filterCards)
         removestoreApp(id)
         console.log('click me')

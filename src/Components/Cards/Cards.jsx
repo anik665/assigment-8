@@ -1,28 +1,32 @@
 import React from 'react';
-import { useLoaderData,NavLink } from 'react-router';
+import { useLoaderData, NavLink } from 'react-router';
 import Card from './Card';
 
 const Cards = () => {
-     const data=useLoaderData()
-     console.log(data)
-    
-    return (
-        <div>
-             <div className=" text-black text-center my-12">
-                <h1 className="text-5xl font-bold mb-2">Trending Apps</h1>
-                <p className=" mt-3 text-gray-400">Explore All Trending Apps on the Market developed by us</p>
-                {
+  const data = useLoaderData();
 
-                }
-            </div>
-           <div className="grid grid-cols-4 gap-4"> {data.map((data,index)=> <Card data={data} />)}</div>
-          <div className="flex justify-center items-center mt-10">
-             <NavLink to={'/app'}><button className="btn btn-primary">Show All</button> </NavLink>
-          </div>
-           
-            
-        </div>
-    );
+  return (
+    <div className="px-4 sm:px-8 lg:px-16">
+      <div className="text-black text-center my-12">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">Trending Apps</h1>
+        <p className="mt-3 text-gray-400 text-sm sm:text-base md:text-lg">
+          Explore all trending apps on the market developed by us
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {data.map((item, index) => (
+          <Card data={item} key={index} />
+        ))}
+      </div>
+
+      <div className="flex justify-center items-center mt-10">
+        <NavLink to={'/app'}>
+          <button className="btn btn-primary px-6 py-3 text-sm sm:text-base">Show All</button>
+        </NavLink>
+      </div>
+    </div>
+  );
 };
 
 export default Cards;

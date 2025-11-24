@@ -16,11 +16,14 @@ import ErrorPage from './Components/Pages/ErrorPage/ErrorPage.jsx'
 
 
 
+
 const router = createBrowserRouter([
+
+
   {
     path: '/',
     Component: Root,
-    errorElement:<ErrorPage/>,
+    errorElement: <ErrorPage />,
 
     children: [
       {
@@ -33,15 +36,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/app',
-        loader: () => fetch('/data.json'),
         Component: Apps,
+        loader: () => new Promise((resolve) =>
+          setTimeout(() => resolve(fetch('/data.json')), 1000)
+        ),
+       
         errorElement: <Error />
-
       },
       {
         path: '/appdetails/:id',
         loader: () => fetch('/data.json'),
-          
+
         Component: AppDetails
       },
       {

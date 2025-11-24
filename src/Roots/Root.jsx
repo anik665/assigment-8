@@ -1,20 +1,25 @@
 import React from 'react';
-import Nav from '../Components/Header/Nav';
-import { Outlet } from 'react-router';
-import Footer from '../Components/Footer/Footer';
+import { Outlet, useNavigation } from 'react-router-dom';
 import Header from '../Components/Header/Header';
+import Footer from '../Components/Footer/Footer';
 
 const Root = () => {
-    return (
-        <div className='flex flex-col max-w-[1140px] mx-auto'>
-           <Header/>
-           <div className=" flex-1">
-             <Outlet/>
-           </div>
-            <Footer/>
-            
-        </div>
-    );
+  const navigation = useNavigation();
+
+  return (
+    <div className="flex flex-col max-w-[1140px] mx-auto">
+      {/* Global loading bar */}
+      {navigation.state === 'loading' && (
+         <span className="loading loading-spinner loading-lg"></span>
+      )}
+
+      <Header />
+      <div className="flex-1">
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default Root;
