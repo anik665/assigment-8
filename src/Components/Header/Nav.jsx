@@ -5,11 +5,14 @@ import git from '../../../public/assets/github.png'
 
 const Nav = () => {
   return (
-    <div className="w-full shadow-sm bg-white">
-      <div className="navbar max-w-[1140px] mx-auto px-4">
-        <div className="navbar-start">
+    <div className=" w-90 lg:w-full shadow-sm bg-white">
+      <div className="navbar mx-auto px-4">
+        
+        <div className="navbar-start w-1/3 sm:w-1/2"> 
+        
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
+           
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -25,9 +28,10 @@ const Nav = () => {
                 />
               </svg>
             </label>
+            {/* Mobile Menu Links */}
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-white text-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
                 <Link to={'/'} className="w-full block py-2 px-3 hover:bg-gray-100 rounded">
@@ -49,6 +53,8 @@ const Nav = () => {
               </li>
             </ul>
           </div>
+          
+          
           <Link to={'/'} className="flex items-center gap-2 btn btn-ghost text-xl">
             <img className="w-10 h-10" src={Logo} alt="Logo" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-bold">
@@ -57,6 +63,7 @@ const Nav = () => {
           </Link>
         </div>
 
+       
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-4">
             <li>
@@ -92,15 +99,16 @@ const Nav = () => {
           </ul>
         </div>
 
-        <div className="navbar-end">
+       
+        <div className="navbar-end w-2/3 sm:w-1/2">
           <a
             href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] flex items-center gap-2"
+            className="btn bg-gradient-to-tr from-[#632EE3] to-[#9F62F2] text-white flex items-center gap-2"
           >
             <img src={git} alt="GitHub" className="w-5 h-5" />
-            Contribute
+            <span className="hidden sm:block">Contribute</span> 
           </a>
         </div>
       </div>

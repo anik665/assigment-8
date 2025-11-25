@@ -12,11 +12,11 @@ const Card = ({ data }) => {
         return num.toString();
     }
     return (
-        <div>
+        <div className=''>
             <Link to={`/appdetails/${id}`}  >
-             <div className="card  w-70 shadow-sm">
+             <div className="card  w-60 shadow-sm">
                 <figure>
-                    <img className='w-70 h-70 p-2 border-2 border-gray-200'
+                    <img className='w-70 h-70  border-2 border-b-0 border-gray-200'
                         src={image}
                         alt="Shoes" />
                 </figure>

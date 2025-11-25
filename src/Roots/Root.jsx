@@ -7,16 +7,16 @@ const Root = () => {
   const navigation = useNavigation();
 
   return (
-    <div className="flex flex-col max-w-[1140px] mx-auto">
-      {/* Global loading bar */}
+    <div className=" ">
+      
       {navigation.state === 'loading' && (
          <span className="loading loading-spinner loading-lg"></span>
       )}
 
       <Header />
-      <div className="flex-1">
+      
         <Outlet />
-      </div>
+      
       <Footer />
     </div>
   );

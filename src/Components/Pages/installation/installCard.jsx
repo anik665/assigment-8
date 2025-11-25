@@ -18,7 +18,7 @@ const InstallCard = ({ app, removedCard }) => {
 
 
     return (
-        <div className=' bg-white border-2 border-gray-200 rounded-sm flex justify-between items-center mb-2 p-4 shwdoS' >
+        <div className=' bg-white border-2 border-gray-200 rounded-sm flex justify-between items-center mb-2 p-4 ' >
             <div className="flex justify-center items-center gap-4 mb-2">
                 <div className="flex justify-center items-center gap-4 mb-2 ">
                     <img className='w-25 h-20 p-2 border-2 border-gray-100' src={image} alt="" />

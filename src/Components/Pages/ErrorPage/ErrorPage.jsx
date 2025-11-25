@@ -7,7 +7,7 @@ const ErrorPage = () => {
       <img
         src={apperrorImg}
         alt="Error"
-        className="w-48 sm:w-64 md:w-80 lg:w-[400px] mx-auto"
+        className="w-48 sm:w-64 md:w-80  mx-auto"
       />
 
       <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-800 mt-6">
